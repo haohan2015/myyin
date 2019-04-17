@@ -1,0 +1,7 @@
+com\myyin\common\bean\RpcRequest.class
+com\myyin\common\bean\RpcResponse.class
+com\myyin\common\util\SerializationUtil.class
+com\myyin\common\util\CollectionUtil.class
+com\myyin\common\codec\RpcDecoder.class
+com\myyin\common\codec\RpcEncoder.class
+com\myyin\common\util\StringUtil.class

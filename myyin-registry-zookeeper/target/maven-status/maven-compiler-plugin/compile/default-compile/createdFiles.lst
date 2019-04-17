@@ -1,0 +1,3 @@
+com\myyin\registry\zookeeper\ZooKeeperServiceRegistry.class
+com\myyin\registry\zookeeper\ZooKeeperServiceDiscovery.class
+com\myyin\registry\zookeeper\Constant.class
