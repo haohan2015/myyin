@@ -14,6 +14,9 @@
         <module>myyin-registry</module>
         <module>myyin-registry-zookeeper</module>
         <module>myyin-server</module>
+        <module>myyin-demo-api</module>
+        <module>myyin-demo-server</module>
+        <module>myyin-demo-client</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

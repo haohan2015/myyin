@@ -1,9 +1,9 @@
 package com.myyin.rpc.client;
 
-import com.myyin.common.bean.RpcRequest;
-import com.myyin.common.bean.RpcResponse;
-import com.myyin.common.util.StringUtil;
-import com.myyin.registry.ServiceDiscovery;
+import com.myyin.rpc.common.bean.RpcRequest;
+import com.myyin.rpc.common.bean.RpcResponse;
+import com.myyin.rpc.common.util.StringUtil;
+import com.myyin.rpc.registry.ServiceDiscovery;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,7 +47,7 @@ public class RpcProxy {
                 rpcRequest.setInterfaceName(method.getDeclaringClass().getName());
                 rpcRequest.setServiceVersion(serviceVersion);
                 rpcRequest.setMethodName(method.getName());
-                rpcRequest.setParameters(method.getParameterTypes());
+                rpcRequest.setParameterTypes(method.getParameterTypes());
                 rpcRequest.setParameters(args);
                 /**
                  * 获取 RPC 服务地址
@@ -84,7 +84,7 @@ public class RpcProxy {
                 if(response.hasException()){
                     throw  response.getException();
                 }else{
-                    return response;
+                    return response.getResult();
                 }
             }
         });

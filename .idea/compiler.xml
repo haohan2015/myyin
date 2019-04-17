@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myyin-client" />
         <module name="myyin-common" />
+        <module name="myyin-demo-api" />
+        <module name="myyin-demo-client" />
+        <module name="myyin-demo-server" />
         <module name="myyin-registry" />
         <module name="myyin-registry-zookeeper" />
         <module name="myyin-server" />
@@ -17,6 +20,9 @@
       <module name="myyin" target="1.8" />
       <module name="myyin-client" target="1.8" />
       <module name="myyin-common" target="1.8" />
+      <module name="myyin-demo-api" target="1.8" />
+      <module name="myyin-demo-client" target="1.8" />
+      <module name="myyin-demo-server" target="1.8" />
       <module name="myyin-registry" target="1.8" />
       <module name="myyin-registry-zookeeper" target="1.8" />
       <module name="myyin-server" target="1.8" />

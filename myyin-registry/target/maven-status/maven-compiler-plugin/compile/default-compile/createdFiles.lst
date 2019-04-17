@@ -1,2 +1,2 @@
-com\myyin\registry\ServiceRegistry.class
-com\myyin\registry\ServiceDiscovery.class
+com\myyin\rpc\registry\ServiceRegistry.class
+com\myyin\rpc\registry\ServiceDiscovery.class

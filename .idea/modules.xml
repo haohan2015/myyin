@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/myyin.iml" filepath="$PROJECT_DIR$/myyin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myyin-client/myyin-client.iml" filepath="$PROJECT_DIR$/myyin-client/myyin-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/myyin-common/myyin-common.iml" filepath="$PROJECT_DIR$/myyin-common/myyin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myyin-demo-api/myyin-demo-api.iml" filepath="$PROJECT_DIR$/myyin-demo-api/myyin-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myyin-demo-client/myyin-demo-client.iml" filepath="$PROJECT_DIR$/myyin-demo-client/myyin-demo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myyin-demo-server/myyin-demo-server.iml" filepath="$PROJECT_DIR$/myyin-demo-server/myyin-demo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/myyin-registry/myyin-registry.iml" filepath="$PROJECT_DIR$/myyin-registry/myyin-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/myyin-registry-zookeeper/myyin-registry-zookeeper.iml" filepath="$PROJECT_DIR$/myyin-registry-zookeeper/myyin-registry-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/myyin-server/myyin-server.iml" filepath="$PROJECT_DIR$/myyin-server/myyin-server.iml" />

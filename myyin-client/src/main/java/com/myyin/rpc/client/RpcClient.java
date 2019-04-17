@@ -1,9 +1,9 @@
 package com.myyin.rpc.client;
 
-import com.myyin.common.bean.RpcRequest;
-import com.myyin.common.bean.RpcResponse;
-import com.myyin.common.codec.RpcDecoder;
-import com.myyin.common.codec.RpcEncoder;
+import com.myyin.rpc.common.bean.RpcRequest;
+import com.myyin.rpc.common.bean.RpcResponse;
+import com.myyin.rpc.common.codec.RpcDecoder;
+import com.myyin.rpc.common.codec.RpcEncoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
  * @Description: RPC 客户端（用于发送 RPC 请求）
  * @date 2019/4/16 20:34
  */
-public class RpcClient extends SimpleChannelInboundHandler{
+public class RpcClient extends SimpleChannelInboundHandler<RpcResponse>{
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RpcClient.class);
 
@@ -33,7 +33,7 @@ public class RpcClient extends SimpleChannelInboundHandler{
     }
 
     @Override
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, Object o) throws Exception {
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, RpcResponse rpcResponse) throws Exception {
         this.rpcResponse = rpcResponse;
     }
 
