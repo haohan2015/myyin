@@ -2,85 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee490fb2-858e-45e6-8310-41f19baeb1ca" name="Default" comment="说明">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-api/src/main/java/com/myyin/rpc/demo/api/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-api/src/main/java/com/myyin/rpc/demo/api/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/resources/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/java/com/myyin/rpc/demo/server/HelloServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/java/com/myyin/rpc/demo/server/HelloServiceImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/java/com/myyin/rpc/demo/server/RpcBootstrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/resources/spring.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/bean/RpcRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/bean/RpcResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/codec/RpcDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/codec/RpcEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/util/CollectionUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/util/SerializationUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/classes/com/myyin/common/util/StringUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/classes/com/myyin/registry/zookeeper/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/classes/com/myyin/registry/zookeeper/ZooKeeperServiceDiscovery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/classes/com/myyin/registry/zookeeper/ZooKeeperServiceRegistry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry/target/classes/com/myyin/registry/ServiceDiscovery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry/target/classes/com/myyin/registry/ServiceRegistry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-registry/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myyin-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/bean/RpcRequest.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/bean/RpcRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/bean/RpcResponse.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/bean/RpcResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/codec/RpcDecoder.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/codec/RpcDecoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/codec/RpcEncoder.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/codec/RpcEncoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/util/CollectionUtil.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/util/CollectionUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/util/SerializationUtil.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/util/SerializationUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/common/util/StringUtil.java" afterPath="$PROJECT_DIR$/myyin-common/src/main/java/com/myyin/rpc/common/util/StringUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/registry/zookeeper/Constant.java" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/rpc/registry/zookeeper/Constant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/registry/zookeeper/ZooKeeperServiceDiscovery.java" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/rpc/registry/zookeeper/ZooKeeperServiceDiscovery.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/registry/zookeeper/ZooKeeperServiceRegistry.java" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/src/main/java/com/myyin/rpc/registry/zookeeper/ZooKeeperServiceRegistry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-registry/src/main/java/com/myyin/registry/ServiceDiscovery.java" afterPath="$PROJECT_DIR$/myyin-registry/src/main/java/com/myyin/rpc/registry/ServiceDiscovery.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myyin-registry/src/main/java/com/myyin/registry/ServiceRegistry.java" afterPath="$PROJECT_DIR$/myyin-registry/src/main/java/com/myyin/rpc/registry/ServiceRegistry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcClient$1.class" afterPath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcClient.class" afterPath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcProxy$1.class" afterPath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcProxy$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcProxy.class" afterPath="$PROJECT_DIR$/myyin-client/target/classes/com/myyin/rpc/client/RpcProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/myyin-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myyin-client/target/myyin-client-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-common/target/myyin-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myyin-common/target/myyin-common-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/myyin-registry-zookeeper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/target/myyin-registry-zookeeper-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry/target/myyin-registry-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myyin-registry/target/myyin-registry-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-server/target/myyin-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myyin-server/target/myyin-server-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/src/main/java/com/myyin/rpc/client/RpcClient.java" afterPath="$PROJECT_DIR$/myyin-client/src/main/java/com/myyin/rpc/client/RpcClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/src/main/java/com/myyin/rpc/client/RpcProxy.java" afterPath="$PROJECT_DIR$/myyin-client/src/main/java/com/myyin/rpc/client/RpcProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myyin-client/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myyin-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myyin-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myyin-common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myyin-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myyin-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myyin-registry-zookeeper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myyin-registry/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myyin-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myyin-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-server/src/main/java/com/myyin/rpc/server/RpcServer.java" afterPath="$PROJECT_DIR$/myyin-server/src/main/java/com/myyin/rpc/server/RpcServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-server/src/main/java/com/myyin/rpc/server/RpcServerHandler.java" afterPath="$PROJECT_DIR$/myyin-server/src/main/java/com/myyin/rpc/server/RpcServerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myyin-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myyin-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties" afterPath="$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties" afterPath="$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,7 +25,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="rpc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpc.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -170,6 +115,8 @@
         <option value="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient2.java" />
         <option value="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient3.java" />
         <option value="$PROJECT_DIR$/myyin-demo-client/src/main/java/com/myyin/rpc/demo/client/HelloClient4.java" />
+        <option value="$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties" />
+        <option value="$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties" />
       </list>
     </option>
   </component>
@@ -373,14 +320,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -459,14 +398,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1046,7 +977,7 @@
       <workItem from="1555394267703" duration="5031000" />
       <workItem from="1555403695240" duration="13228000" />
       <workItem from="1555466712047" duration="597000" />
-      <workItem from="1555489137546" duration="8970000" />
+      <workItem from="1555489137546" duration="9183000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1555489490056</created>
@@ -1073,7 +1004,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27826000" />
+    <option name="totallyTimeSpent" value="28039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1429,14 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myyin-registry-zookeeper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1473,14 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1052">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1635,6 +1550,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myyin-demo-server/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myyin-demo-client/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
